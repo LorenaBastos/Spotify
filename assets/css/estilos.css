@@ -3,6 +3,9 @@ body{
     padding: 0;
     font-family: 'Lato', sans-serif;
     overflow-x: hidden;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #222326;
 }
 ul{
     list-style: none;
@@ -29,94 +32,118 @@ ul{
     padding: 10px;
 }
 
+
 .banner{
     padding: 195px;
     background-image: linear-gradient(#f037a5 -60%, #fae62d 140%);
     color: white;
     text-align: center;
-    background-image: 
 }
+
+
 .titulo-principal{
     font-size: 80px;
 }
+button{
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    padding: 16px 48px 18px;
+    color: #FFF;
+    background-color: #1ED760;
+    border-width: 0;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+}
+button:hover{
+    color: #FFF;
+    background-color: #1ED760;
+}
 .lista1 :hover {
-    color: rgb(5, 236, 121);
+    color:#1ED760;
 }
 .lista1 {
     cursor: pointer;
     padding: 0.5%;
     margin-right: 10%;
 }
+.lista p{
+    color: gray;
+}
+.lista{
+    width: 15%;
+    color: white;
+}
+.info{
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.info li{
+    font-size: 12px;
+}
+.info li:hover{
+    color: #1DB954;
+}
+.texto:hover{
+    color: #1DB954;
+}
+.copyright{
+    text-align: right;
+}
+footer{
+    background-color: black;
+}
+.texto{
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .container{
     display: flex;
     margin: 60px;
     margin-left: 156px;
     width: 81%;
     margin-top: 5%;
-    background-color: black;
-    
-}
-.empresa p{
-    color: gray;
-}
-.empresa{
-    width: 15%;
-    color: white;
-}
-.comunidades p{
-    color: gray;
-}
-.comunidades{
-    width: 15%;
-    color: white;
-}
-.links-uteis p{
-    color: gray;
-}
-.links-uteis{
-    width: 15%;
-    color: white
-}
-.info{
-    list-style: none;
-    margin-inline-start: -1562px;
-    margin-top: 213px;
-    justify-content: space-between;
-    display: flex;
-    width: 50%;
-    color: white;
-    font-size: small;
-}
-footer{
-    background-color: black;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .redes-sociais{
     margin-left:37%;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    box-sizing: border-box;
+    float: left;
 }
-.icone1{
-    display: inline;
+.imagem{
+    width: 24px;
+    height: 24px;
+}
+.bandeira{
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    font-size: 18px;
+    height: 1em;
+    width: 1.33333333em;
+}
+
+.icone{
+    display: flex;
     background-color: rgba(77, 63, 63, 0.5);
-    width: 35px;
-    height: 35px;
-    padding: 44px;
+    padding: 16px;
     border-radius: 50%;
+    justify-content: space-between;
 }
-.icone2{
-    display: inline;
-    background-color: rgba(77, 63, 63, 0.5);
-    width: 35px;
-    height: 35px;
-    padding: 44px;
-    border-radius: 50%;
-}
-.icone3{
-    display: inline;
-    background-color: rgba(77, 63, 63, 0.5);
-    width: 35px;
-    height: 35px;
-    padding: 44px;
-    border-radius: 50%;
-}
+
 
 
 
